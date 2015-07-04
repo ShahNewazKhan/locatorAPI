@@ -1,0 +1,11 @@
+{
+  "name": "locatorAPI",
+  "version": "1.0.0",
+  "description": "Node API to serve the Locator Android App",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Shah Newaz Khan",
+  "license": "GPL"
+}
