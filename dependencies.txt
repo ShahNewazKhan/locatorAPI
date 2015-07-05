@@ -1,0 +1,11 @@
+sudo npm install express --save
+
+sudo npm install mongoose --save
+
+sudo npm install node-restful --save 
+
+sudo npm install body-parser --save
+
+sudo npm install -g nodemon
+
+sudo docker build -t shahsewazkhan/locator-api .
