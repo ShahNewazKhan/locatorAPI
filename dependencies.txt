@@ -9,3 +9,4 @@ sudo npm install body-parser --save
 sudo npm install -g nodemon
 
 sudo docker build -t shahsewazkhan/locator-api .
+sudo docker run -t -i -p 3000:3000 shahsewazkhan/locator-api /usr/bin/supervisord

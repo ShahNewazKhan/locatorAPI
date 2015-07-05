@@ -6,6 +6,7 @@ var mongoose = restful.mongoose;
 var usersSchema = new mongoose.Schema({
 
 	fb_id: Number,
+	name: String,
 	lat: Number,
 	lon: Number 
 });

@@ -16,6 +16,8 @@ RUN apt-get install -y npm
 
 RUN apt-get install -y supervisor
 
+RUN mkdir -p /data/db
+
 RUN mkdir -p /var/log/supervisor
 
 COPY . /locatorAPI
@@ -26,4 +28,4 @@ COPY supervisord.conf /etc/supervisor/conf.d/supervisord.conf
 
 EXPOSE 27017 28017 3000
 
-CMD ["/usr/bin/supervisord"]
+CMD ["service mongod stop && /usr/bin/supervisord"]
